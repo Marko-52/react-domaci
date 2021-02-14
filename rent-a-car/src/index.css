@@ -1,0 +1,31 @@
+body {
+}
+
+code {
+}
+
+.collection-item.avatar .circle {
+    height: 6rem !important;
+    width: 6rem !important;
+}
+
+.collection-item.avatar {
+    padding-left: 8rem !important;
+}
+
+.collection-item.avatar.rented {
+    filter: saturate(15%);
+}
+
+.collection-item.avatar {
+    user-select: none;
+}
+
+form button {
+    width: 100px;
+    margin-top: 0.5em;
+}
+
+ul li a.active {
+    filter: invert(1);
+}
